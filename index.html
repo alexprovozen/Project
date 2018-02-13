@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Project 3 v2</title>
+    <link rel="stylesheet" href="css/jquery.fullPage.css">
+    <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/jquery.fullPage.js"></script>
+    <script src="js/fullpage-sett.js"></script>
+    <script src="js/main.js" defer></script>
+</head>
+<body>
+<!--Затемненный фон-->
+<div class="fon"></div>
+<!--Логотип и боковые меню-->
+<div class="nav_fixed_left">
+    <img src="img/logo-ucoz.svg" class="logo">
+</div>
+<a class="nav_button_block">
+    <div class="icon-bar"></div>
+    <div class="icon-bar"></div>
+    <div class="icon-bar"></div>
+</a>
+<div id="left_menu">
+    <ul class="navig">
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Jobs</a></li>
+        <li><a href="#">Forum</a></li>
+        <li><a href="#">Pricing</a></li>
+        <li><a href="#">Examples</a></li>
+        <li><a href="#">Contact Us</a></li>
+    <br><br>
+        <li><a href="#">Sign Un</a></li>
+        <li><a href="#">LOG IN</a></li>
+    </ul>
+    <p>Social network:</p>
+    <div class="soc_left_menu">
+        <a href="#" class="social_circle"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" class="social_circle"><i class="fab fa-twitter"></i></a>
+        <a href="#" class="social_circle"><i class="fab fa-facebook-f"></i></a>
+    </div>
+</div>
+<div id="right_menu">
+    <span class="lnr lnr-cross" id="close"></span>
+    <h3>Log in</h3>
+    <p>Authorization in the uCoz system is realized by means of
+        the account details of the <a href="#">uID</a> system.</p>
+    <button>Log in with uID</button>
+    <p>Or login via:</p>
+    <div class="soc_right_menu">
+        <a href="#" class="soc_ google"><i class="fab fa-google-plus-g"></i></a>
+        <a href="#" class="soc_ facebk"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" class="soc_ twitt"><i class="fab fa-twitter"></i></a>
+    </div>
+    <span class="comment">If you want to connect an existing uID account to an account in a social network, you need to login via
+        uID first, and then connect the accounts</span>
+</div>
+<!--Слайдер начало-->
+<div id="fullpage">
+    <!--Первый слайд-->
+    <div class="section section1">
+        <select class="selectpicker">
+            <option value="en" selected>English</option>
+            <option value="de">Deutsch</option>
+            <option value="es">Español</option>
+            <option value="fr">Français</option>
+            <option value="pt">Português</option>
+            <option value="pl">Polski</option>
+            <option value="ro">Română</option>
+            <option value="hu">Magyar</option>
+            <option value="ru">Русский</option>
+            <option value="uk">Українська</option>
+            <option value="ar">العربية</option>
+            <option value="he">ע ִב ְר ִית</option>
+        </select>
+        <a href="#" class="nav_right">Log in</a>
+        <div class="container">
+            <h1>Choose a website builder that suits your needs:</h1>
+            <div class="row" id="term_block">
+                <div class="col-4" id="block_for_me">
+                    <img src="img/i_forme.svg">
+                    <h3>Personal</h3>
+                    <button>Create a website</button>
+                    <p>on uCoz</p>
+            </div>
+                <div class="col-4 " id="block_for_buss">
+                    <img src="img/i_forbiss.svg">
+                    <h3>Business</h3>
+                    <button>Start working</button>
+                    <p>with uKit</p>
+                </div>
+                <div class="col-4" id="block_mag">
+                    <img src="img/shop_ico_v1.svg" >
+                    <h3>Calcs and forms</h3>
+                    <button>Build now</button>
+                    <p>with uCalc</p>
+                </div>
+            </div>
+            <a href="#">
+            <div class="question">
+                <span class="lnr lnr-question-circle"></span><br>
+                <span>Don't know what to choose?</span>
+            </div>
+            </a>
+            <a href="#uCoz" id="btn_bottom"></a>
+        </div>
+    </div>
+    <!--Второй слайд-->
+    <div class="section section2">
+        <div id="box_text">
+            <h2>Build it yourself</h2>
+            <img src="img/ucoz-header.svg" class="ucoz_logo">
+            <div class="opacity"><h4>A free website builder offering a huge amount
+                of<br> tools and features.
+                Time-tested and developer-<br>friendly.
+                Full code control to make your best
+                ideas a<br> reality.</h4>
+                <button>Create a website</button>
+            </div>
+        </div>
+        <div class="slider_form">
+            <a id="btn_expend"></a>
+            <a id="dashed_line"></a>
+            <div class="slider1">
+                <div class="item1"></div>
+                <div class="item2"></div>
+                <div class="item3"></div>
+                <div class="item4"></div>
+                <div class="item5"></div>
+                <div class="item6"></div>
+            </div>
+        </div>
+        <p class="text_left">
+            <strong>12</strong><br>
+            years <br>of<br>
+                experience
+        </p>
+        <p class="text_right">
+            <strong>1.2</strong><br>
+            mln <br>active<br>
+            websites
+        </p>
+    </div>
+    <!--Третий слайд-->
+    <div class="section section3">
+        <div class="container">
+            <div class="row">
+            <div id="slider_border" class="col-7">
+                <div class="slider2">
+                    <div class="slide1"></div>
+                    <div class="slide2"></div>
+                    <div class="slide3"></div>
+                </div>
+
+            </div>
+            <div class="col-5 block_right">
+                <h2>For business</h2>
+                <h1><span>u</span>kit</h1>
+                <p>An innovative drag-and-drop website builder with an intuitive interface designed for businesses. Modern and responsive websites in a few clicks. No coding required.</p>
+                <a href="#"><i class="far fa-play-circle"></i> Watch trailer</a><br>
+                <button>Start working</button>
+            </div>
+            </div>
+            </div>
+    </div>
+    <!--Четвертый слайд-->
+    <div class="section section4"></div>
+    <!--Пятый слайд-->
+    <div class="section section5"></div>
+    <!--Шестой слайд-->
+    <div class="section section6"></div>
+    <!--Седьмой слайд-->
+    <div class="section section7"></div>
+    <!--Восьмой слайд-->
+    <div class="section section8"></div>
+    <!--Девятый слайд-->
+    <div class="section section9"></div>
+    <!--Десятый слайд-->
+    <div class="section section10"></div>
+    <!--Одинадцатый слайд-->
+    <div class="section section11"></div>
+</div>
+
+
+
+
+
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="slick/slick.min.js"></script>
+<script src="js/slick_setings.js"></script>
+</body>
+</html>
