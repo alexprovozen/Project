@@ -58,6 +58,21 @@ $(document).ready(function() {
                     left: "200vw"
                 });
             }
+            if (anchorLink == "uSocial") {
+                $(".cont7_left").animate({
+                    right: "0"
+                }, 450);
+                $(".cont7_right").animate({
+                    left: "0"
+                }, 450);
+            } else {
+                $(".cont7_left").css({
+                    right: "100vw"
+                });
+                $(".cont7_right").css({
+                    left: "100vw"
+                });
+            }
 
         }
     });

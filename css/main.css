@@ -1022,3 +1022,63 @@ a:focus {
     background-color: #e89d4b;
     cursor: pointer;
 }
+
+/*Шестой слайд*/
+
+.section6 {
+    background: linear-gradient(-45deg, #799a4c 0%,#84b746 64%,#b5db8d 100%);
+
+}
+
+.cont7_left {
+    right: 100vw;
+}
+
+.usocial_logo {
+    width: 100%;
+}
+
+.cont7_right {
+    left:100vw;
+}
+
+.cont7_right h2 {
+    color: white;
+    text-align: left;
+    font-family: "Avenir Next Cyr Ultra",sans-serif;
+    margin-bottom: 30px;
+    margin-top: 54px;
+}
+
+.cont7_right h1 {
+    color: white;
+    text-align: left;
+    font-size: 68px;
+    margin: 30px 0;
+    font-family: "Avenir Next Cyr Ultra", sans-serif;
+}
+
+.cont7_right h4 {
+    color: white;
+    text-align: left;
+    font-size: 20px;
+    font-family: "Avenir Next Cyr Ultra", sans-serif;
+}
+
+.cont7_right button {
+    border: none;
+    outline: none;
+    padding: 10px 50px;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+    background: #4A90E1;
+    color: white;
+    float: left;
+    margin: 25px 0;
+}
+
+.cont7_right button:hover {
+    background: #4aa0f1;
+    cursor: pointer;
+}
+
