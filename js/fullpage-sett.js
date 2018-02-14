@@ -34,6 +34,31 @@ $(document).ready(function() {
                     left: "100vw"
                 });
             }
+            if (anchorLink == "uShop") {
+                $(".cont_left").animate({
+                    right: "0"
+                }, 450);
+                $(".cont_right").animate({
+                    left: "0"
+                }, 450);
+            } else {
+                $(".cont_left").css({
+                    right: "100vw"
+                });
+                $(".cont_right").css({
+                    left: "100vw"
+                });
+            }
+            if (anchorLink == "uPartner") {
+                $(".fon_imac").animate({
+                    left: "50%"
+                }, 450);
+            } else {
+                $(".fon_imac").css({
+                    left: "200vw"
+                });
+            }
+
         }
     });
 });

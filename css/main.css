@@ -808,4 +808,217 @@ a:focus {
 
 .block_right button:hover {
     background-color: #43bfa5;
+    cursor: pointer;
+}
+
+/*Четвертый слайд*/
+
+.section4 {
+    background: linear-gradient(to bottom, #d7ae6c 0%, #2c2416 100%);
+
+}
+
+.cont_left {
+    text-align: left;
+    color: white;
+    font-family: "Avenir Next Cyr Ultra", sans-serif;
+    right: 100vw;
+}
+
+.cont_left h2 {
+    margin-top: 48px;
+    text-align: left;
+    margin-bottom: 20px;
+    font-family: "Avenir Next Cyr Ultra", sans-serif;
+}
+
+.cont_left h1 {
+    font-size: 100px;
+    font-family: "Avenir Next Cyr Ultra", sans-serif;
+    text-align: left;
+}
+
+.cont_left p {
+    font-size: 20px;
+    font-weight: 200;
+
+}
+
+.cont_left button {
+    background: #767577;
+    color: white;
+    padding: 10px 60px;
+    border: none;
+    outline: none;
+    border-radius: 16px;
+    font-size: 18px;
+}
+
+.cont_left button:hover {
+    background: #a4a3a5;
+    cursor: pointer;
+}
+
+.cont_right {
+    left:100vw;
+}
+
+.slider3 {  
+    background: url("../img/laptop-clear.png") center no-repeat;
+    background-size: contain;
+    padding: 65px 76px 74px 78px;
+}
+
+.slider3 .slide3_1{
+    background: url("../img/ushop02.jpg") center no-repeat;
+    height: 309px;
+    background-size: cover;
+    outline: none;
+}
+
+.slider3 .slide3_2{
+    background: url("../img/ushop04.jpg") center no-repeat;
+    height: 309px;
+    background-size: cover;
+    outline: none;
+}
+
+.slider3 .slide3_3{
+    background: url("../img/ushop01.jpg") center no-repeat;
+    height: 309px;
+    background-size: cover;
+    outline: none;
+}
+
+.cont_right .slick-prev {
+    left: 10px;
+    width: 0;
+    height: 0;
+    border-top: 23px solid transparent;
+    border-bottom: 23px solid transparent;
+    border-right: 23px solid #ffffff;
+    transition: all 0.2s ease
+}
+
+.cont_right .slick-prev:hover {
+    border-right: 23px solid #eaeaea;
+}
+
+.cont_right .slick-next {
+    right: 10px;
+    width: 0;
+    height: 0;
+    border-top: 23px solid transparent;
+    border-bottom: 23px solid transparent;
+    border-left: 23px solid #ffffff;
+    transition: all 0.2s ease
+}
+
+.cont_right .slick-next:hover {
+    border-left: 23px solid #eaeaea;
+}
+
+.cont_right .slick-next:before {
+    content: '';
+}
+
+.cont_right .slick-prev:before {
+    content: '';
+}
+
+.image_plate {
+    position: absolute;
+    background: url(../img/laptop-plate-transp.png) no-repeat;
+    background-size: contain;
+    width: 205px;
+    height: 154px;
+    top: 39px;
+    left: 17px;
+}
+
+/*Пятый слайд*/
+
+.section5 {
+    background: linear-gradient(45deg,#d33131 0,#ac4d4d 55%,#f09393 100%);
+    
+}
+
+@media screen and (max-height: 922px) {
+    .fon_imac {
+        background: url("../img/imac.png") no-repeat center;
+        width: 1366px;
+        height: 100%;
+        background-size: contain;
+        position: absolute;
+        top: 0;
+        left: 200vw;
+        margin-left: -683px;
+        z-index: 1;
+    }
+}
+
+@media screen and (min-height: 922px) {
+    .fon_imac {
+        background: url("../img/imac_full.png") no-repeat center;
+        width: 1366px;
+        height: 100%;
+        background-size: contain;
+        position: absolute;
+        top: 0;
+        left: 200vw;
+        margin-left: -683px;
+        z-index: 1;
+    }
+}
+
+.text_patner {
+    position: relative;
+    top: 14vh;
+
+}
+
+.text_patner h2 {
+    color: white;
+}
+
+.text_patner h1 {
+    color: white;
+    font-size: 80px;
+    font-family: "Avenir Next Cyr Ultra", sans-serif;
+}
+
+.text_patner h4 {
+    color: white;
+    margin-bottom: 45px;
+}
+
+.text_patner .btn_add {
+   background-color: #1AAF5D;
+    padding: 13px 60px;
+    border:none;
+    outline: none;
+    color: white;
+    font-size: 20px;
+    border-radius: 18px;
+    margin-right: 30px;
+}
+
+.text_patner .btn_add:hover {
+    background-color: #1ac16a;
+    cursor: pointer;
+}
+
+.text_patner .btn_search {
+   background-color: #E87E03;
+    padding: 13px 60px;
+    border:none;
+    outline: none;
+    color: white;
+    font-size: 20px;
+    border-radius: 18px;
+}
+
+.text_patner .btn_search:hover {
+    background-color: #e89d4b;
+    cursor: pointer;
 }
