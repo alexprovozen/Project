@@ -88,6 +88,21 @@ $(document).ready(function() {
                     left: "100vw"
                 });
             }
+            if (anchorLink == "uID") {
+                $(".cont8_left").animate({
+                    right: "0"
+                }, 450);
+                $(".cont8_right").animate({
+                    left: "0"
+                }, 450);
+            } else {
+                $(".cont8_left").css({
+                    right: "100vw"
+                });
+                $(".cont8_right").css({
+                    left: "100vw"
+                });
+            }
 
         }
     });

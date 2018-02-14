@@ -9,3 +9,7 @@ $('.slider2').slick({
 $('.slider3').slick({
     fade: true
 });
+
+$('.slider4').slick({
+    fade: true
+});

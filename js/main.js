@@ -82,35 +82,26 @@ $('#btn_expend').on('click', function () {
     }
 });
 
-// Анимации
-
-// $.fn.extend({
-//     animateCss: function(animationName, callback) {
-//         var animationEnd = (function(el) {
-//             var animations = {
-//                 animation: 'animationend',
-//                 OAnimation: 'oAnimationEnd',
-//                 MozAnimation: 'mozAnimationEnd',
-//                 WebkitAnimation: 'webkitAnimationEnd',
-//             };
-//
-//             for (var t in animations) {
-//                 if (el.style[t] !== undefined) {
-//                     return animations[t];
-//                 }
-//             }
-//         })(document.createElement('div'));
-//
-//         this.addClass('animated ' + animationName).one(animationEnd, function() {
-//             $(this).removeClass('animated ' + animationName);
-//
-//             if (typeof callback === 'function') callback();
-//         });
-//
-//         return this;
-//     }
-// });
-
-
-
-
+var address = [
+    "https://uid.me/cloud_richard",
+    "https://uid.me/olivia_cameron",
+    "https://uid.me/carlos_tamaoki",
+    "https://uid.me/alexmoloney",
+    "https://uid.me/marjana_borodan"
+];
+var i = 0;
+$("#display").attr("href", address[i]).text(address[i]);
+$(".slick-prev").click(function () {
+    --i;
+    if (i===-1) {
+        i=address.length-1;
+    }
+    $("#display").attr("href", address[i]).text(address[i]);
+});
+$(".slick-next").click(function () {
+    ++i;
+    if (i===address.length) {
+        i=0;
+    }
+    $("#display").attr("href", address[i]).text(address[i]);
+});
