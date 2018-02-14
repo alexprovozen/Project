@@ -4,7 +4,7 @@ $(document).ready(function() {
         menu: '#menu',
         lockAnchors: false,
         anchors:['Home', 'uCoz', 'uKit', 'uShop', 'uPartner',
-            'uSocial', 'My Sites', 'uID', 'uTemplate', 'uRan', 'Contact'],
+            'uSocial', 'MySites', 'uID', 'uTemplate', 'uRan', 'Contact'],
         navigation: true,
         navigationPosition: 'right',
         navigationTooltips: ['Home', 'uCoz', 'uKit', 'uShop', 'uPartner',
@@ -59,6 +59,21 @@ $(document).ready(function() {
                 });
             }
             if (anchorLink == "uSocial") {
+                $(".cont6_left").animate({
+                    right: "0"
+                }, 450);
+                $(".cont6_right").animate({
+                    left: "0"
+                }, 450);
+            } else {
+                $(".cont6_left").css({
+                    right: "100vw"
+                });
+                $(".cont6_right").css({
+                    left: "100vw"
+                });
+            }
+            if (anchorLink == "MySites") {
                 $(".cont7_left").animate({
                     right: "0"
                 }, 450);

@@ -1030,7 +1030,7 @@ a:focus {
 
 }
 
-.cont7_left {
+.cont6_left {
     right: 100vw;
 }
 
@@ -1038,11 +1038,11 @@ a:focus {
     width: 100%;
 }
 
-.cont7_right {
+.cont6_right {
     left:100vw;
 }
 
-.cont7_right h2 {
+.cont6_right h2 {
     color: white;
     text-align: left;
     font-family: "Avenir Next Cyr Ultra",sans-serif;
@@ -1050,7 +1050,7 @@ a:focus {
     margin-top: 54px;
 }
 
-.cont7_right h1 {
+.cont6_right h1 {
     color: white;
     text-align: left;
     font-size: 68px;
@@ -1058,14 +1058,14 @@ a:focus {
     font-family: "Avenir Next Cyr Ultra", sans-serif;
 }
 
-.cont7_right h4 {
+.cont6_right h4 {
     color: white;
     text-align: left;
     font-size: 20px;
     font-family: "Avenir Next Cyr Ultra", sans-serif;
 }
 
-.cont7_right button {
+.cont6_right button {
     border: none;
     outline: none;
     padding: 10px 50px;
@@ -1077,8 +1077,50 @@ a:focus {
     margin: 25px 0;
 }
 
-.cont7_right button:hover {
+.cont6_right button:hover {
     background: #4aa0f1;
     cursor: pointer;
 }
 
+/*Седьмой слайд*/
+
+.cont7_left {
+    right: 100vw;
+}
+
+.cont7_left h2, h1, h4 {
+    color: black;
+    text-align: left;
+    font-family: "Avenir Next Cyr Ultra", sans-serif;
+}
+
+.cont7_left h1 {
+    font-size: 68px;
+    padding: 20px 0;
+}
+
+.cont7_left h2 {
+    font-size: 34px;
+    margin-top: 40px;
+}
+
+.cont7_left h4 {
+    font-size: 20px;
+}
+
+.store_link {
+    width: 100%;
+    margin-top: 30px;
+}
+
+.store_link:hover {
+    cursor: pointer;
+}
+
+.cont7_right {
+    left:100vw;
+}
+
+.apps_phones {
+    width: 100%;
+}
